@@ -155,7 +155,9 @@ Metrics from the most recent full training runs (`runs/detect/train/` and `runs/
 
 ## Annotation Rules
 
-Full rules in [`ANNOTATION_GUIDELINES.md`](./ANNOTATION_GUIDELINES.md). Summary:
+Full rules in [`ANNOTATION_GUIDELINES.md`](./ANNOTATION_GUIDELINES.md).
+
+Summary:
 
 - One box per **visually distinct leaf**.
 - Compound leaves (strawberry, blueberry, clover, etc.): **one box for the whole compound leaf**, not one per leaflet.
