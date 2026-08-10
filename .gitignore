@@ -2,3 +2,12 @@ data/
 runs/
 *.pt
 __pycache__/
+
+# Deployment build artifacts (regenerable via deploy.ipynb, not source)
+deployment/export_venv/
+deployment/models/*
+!deployment/models/*.tflite
+deployment/compiler_logs/
+deployment/reports/
+deployment/calibration_image_sample_data_*.npy
+deployment/runs/

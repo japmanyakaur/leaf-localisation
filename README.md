@@ -142,7 +142,7 @@ Outputs, per detected leaf: image name, box coordinates, confidence, and **area 
 python scripts/webcam_demo.py --weights runs/detect/train/weights/best.pt --camera 0
 ```
 
-Draws detected boxes and per-leaf pixel area on the live feed; press `q` to quit. Uses `cv2.CAP_DSHOW`, so this script currently targets **Windows**.
+Draws detected boxes and per-leaf pixel area on the live feed; press `q` to quit. Cross-platform (Windows/Linux/Raspberry Pi) — uses OpenCV's default camera backend; pass `--camera` to select a different camera index if `0` isn't your device.
 
 ## Results
 

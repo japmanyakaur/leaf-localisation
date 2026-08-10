@@ -17,12 +17,12 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--weights", default="runs/detect/train/weights/best.pt",
                          help="path to trained model weights (best.pt)")
-    parser.add_argument("--camera", type=int, default=1,
+    parser.add_argument("--camera", type=int, default=0,
                          help="camera index ")
     args = parser.parse_args()
 
     model = YOLO(args.weights)
-    cam = cv2.VideoCapture(args.camera, cv2.CAP_DSHOW)
+    cam = cv2.VideoCapture(args.camera)
     if not cam.isOpened():
         raise RuntimeError(f"Could not open camera index {args.camera}")
 
