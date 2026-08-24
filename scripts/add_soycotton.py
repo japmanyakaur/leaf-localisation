@@ -1,7 +1,5 @@
 """
-Merge the SoyCotton leaf-detection dataset into data/processed.
-
-
+Merge the SoyCotton leaf-detection dataset into data/processed for improved results.
 """
 import argparse
 import json
