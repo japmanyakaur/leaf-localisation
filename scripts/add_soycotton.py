@@ -8,8 +8,7 @@ those two crops is expected to be poor no matter how it's trained.
 
 SoyCotton (Kellermann et al., Scientific Data 2026,
 https://doi.org/10.6084/m9.figshare.28466636) is a purpose-built leaf-instance
-dataset: 640 real field images, 7,221 soy + 5,190 cotton leaves annotated with
-bounding boxes 
+dataset
 """
 import argparse
 import json
