@@ -1,8 +1,7 @@
 """
 Merge the SoyCotton leaf-detection dataset into data/processed.
 
-Why this exists: PlantDoc (relabel.py) has ZERO cotton images and only 33 soy
-images out of 2205 total (~1.5%).
+
 """
 import argparse
 import json
