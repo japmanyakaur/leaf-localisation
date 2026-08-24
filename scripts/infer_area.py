@@ -3,11 +3,6 @@ Run the trained leaf detector over a folder of images and write out, for every
 detected leaf: which image it's in, its box coordinates, confidence, and its
 area in pixels (width_px * height_px of the box).
 
-This gives box-approximated area, not pixel-exact area (a real leaf isn't a
-perfect rectangle) -- see README for why that tradeoff was accepted.
-
-Usage:
-    python scripts/infer_area.py --source data/processed/test/images --weights runs/detect/train/weights/best.pt
 """
 import argparse
 import csv
