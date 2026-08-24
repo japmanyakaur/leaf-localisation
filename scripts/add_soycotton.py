@@ -20,8 +20,7 @@ redistribute anything derived from it, check the figshare page for the
 current license/citation requirements.
 
 Usage:
-    pip install imagehash   # only needed by dedupe_splits.py, not this script
-    python scripts/add_soycotton.py
+
 """
 import argparse
 import json
