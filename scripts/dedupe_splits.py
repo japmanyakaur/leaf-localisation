@@ -13,9 +13,7 @@ dataset (e.g. train_irish-blight-symptom.jpg / test_irish-blight-symptom.jpg
 came back as an exact hash match and are in fact the same photo).
 
 If the same photo sits in both train and val/test, the model can effectively
-"see" its eval examples during training, which inflates val/test precision,
-recall and mAP without the model actually being better.
-
+"see" 
 """
 import argparse
 from pathlib import Path
