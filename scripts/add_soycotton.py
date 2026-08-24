@@ -14,8 +14,6 @@ lighting conditions. We only use the bounding boxes here. Both of its classes
 ('soy' and 'cotton') get collapsed to class id 0 ('leaf'), same as relabel.py
 does for PlantDoc's 29 classes -- this project only ever localises "a leaf",
 not the species.
-
-
 """
 import argparse
 import json
