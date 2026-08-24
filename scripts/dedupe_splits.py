@@ -18,11 +18,6 @@ recall and mAP without the model actually being better. That makes it
 impossible to tell whether a change (like adding SoyCotton data, or upsizing
 to yolo26m) genuinely helped.
 
-Keep priority when a duplicate group spans multiple splits: test > val > train.
-Held-out sets should stay pristine; train is the one it's cheapest to shrink.
-
-Usage:
-   
 
 """
 import argparse
