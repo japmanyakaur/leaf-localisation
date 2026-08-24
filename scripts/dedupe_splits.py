@@ -24,9 +24,7 @@ Held-out sets should stay pristine; train is the one it's cheapest to shrink.
 Usage:
     pip install imagehash
     python scripts/dedupe_splits.py                 # dry run, just reports
-    python scripts/dedupe_splits.py --apply          # actually deletes the losers
 
-Expect this to take a few minutes on ~2000-3000 images (hashing dominates).
 """
 import argparse
 from pathlib import Path
