@@ -12,7 +12,7 @@ import imagehash
 
 ROOT = Path("data/processed")
 SPLITS = ["train", "val", "test"]
-SPLIT_PRIORITY = {"test": 0, "val": 1, "train": 2}  # lower = kept first
+SPLIT_PRIORITY = {"test": 0, "val": 1, "train": 2}  
 
 AHASH_MAX_DIFF = 2
 PHASH_MAX_DIFF = 6
