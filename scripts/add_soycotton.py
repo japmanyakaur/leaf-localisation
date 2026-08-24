@@ -22,8 +22,6 @@ current license/citation requirements.
 Usage:
     pip install imagehash   # only needed by dedupe_splits.py, not this script
     python scripts/add_soycotton.py
-    python scripts/verify.py          # confirm the new counts
-    
 """
 import argparse
 import json
