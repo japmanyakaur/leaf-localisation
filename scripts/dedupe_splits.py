@@ -22,8 +22,7 @@ Keep priority when a duplicate group spans multiple splits: test > val > train.
 Held-out sets should stay pristine; train is the one it's cheapest to shrink.
 
 Usage:
-    pip install imagehash
-    python scripts/dedupe_splits.py                 # dry run, just reports
+   
 
 """
 import argparse
