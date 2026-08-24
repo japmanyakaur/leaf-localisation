@@ -9,8 +9,7 @@ genuinely different photos. What actually matters is image *content*. This
 script perceptual-hashes every image (average hash + phash) and flags
 cross-split pairs that are near-identical by both metrics -- the same
 combination/threshold used to manually verify real duplicates in this
-dataset (e.g. train_irish-blight-symptom.jpg / test_irish-blight-symptom.jpg
-came back as an exact hash match and are in fact the same photo).
+dataset (e.g. train_irish-blight-symptom.jpg
 
 """
 import argparse
