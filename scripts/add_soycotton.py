@@ -11,8 +11,7 @@ https://doi.org/10.6084/m9.figshare.28466636) is a purpose-built leaf-instance
 dataset: 640 real field images, 7,221 soy + 5,190 cotton leaves annotated with
 bounding boxes + segmentation masks, across growth stages / weed pressure /
 lighting conditions. We only use the bounding boxes here. Both of its classes
-('soy' and 'cotton') get collapsed to class id 0 ('leaf'), same as relabel.py
-does for PlantDoc's 29 classes 
+('soy' and 'cotton') 
 """
 import argparse
 import json
