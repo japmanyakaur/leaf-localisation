@@ -7,9 +7,7 @@ splits) produces mostly false positives here -- PlantDoc's Kaggle re-split
 reused generic stock-photo names like "0.jpg" or "bacterial_leaf_spot.jpg" for
 genuinely different photos. What actually matters is image *content*. This
 script perceptual-hashes every image (average hash + phash) and flags
-cross-split pairs that are near-identical by both metrics -- the same
-combination/threshold used to manually verify real duplicates in this
-dataset (e.g. train_irish-blight-symptom.jpg
+cross-split pairs that are near-identical by both metrics -- 
 
 """
 import argparse
