@@ -2,8 +2,6 @@
 Find (and optionally remove) near-duplicate images that leaked across
 train/val/test.
 
-Why: a naive check based on filenames alone (e.g. same normalized stem in two
-splits) produces mostly false positives here 
 
 """
 import argparse
