@@ -7,8 +7,7 @@ cotton leaf and has barely seen a soy leaflet cluster, so precision/recall on
 those two crops is expected to be poor no matter how it's trained.
 
 SoyCotton (Kellermann et al., Scientific Data 2026,
-https://doi.org/10.6084/m9.figshare.28466636) is a purpose-built leaf-instance
-dataset
+
 """
 import argparse
 import json
