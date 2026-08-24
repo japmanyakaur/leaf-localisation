@@ -1,9 +1,9 @@
 """
-Find (and optionally remove) near-duplicate images that leaked across
+Find near-duplicate images that leaked across
 train/val/test.
-
-
 """
+
+
 import argparse
 from pathlib import Path
 
