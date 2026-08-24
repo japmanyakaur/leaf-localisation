@@ -18,9 +18,6 @@ not the species.
 The dataset is released alongside a peer-reviewed data descriptor; if you
 redistribute anything derived from it, check the figshare page for the
 current license/citation requirements.
-
-Usage:
-
 """
 import argparse
 import json
