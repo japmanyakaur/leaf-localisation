@@ -6,7 +6,6 @@ images out of 2205 total (~1.5%). The detector has effectively never seen a
 cotton leaf and has barely seen a soy leaflet cluster, so precision/recall on
 those two crops is expected to be poor no matter how it's trained.
 
-SoyCotton (Kellermann et al., Scientific Data 2026,
 
 """
 import argparse
