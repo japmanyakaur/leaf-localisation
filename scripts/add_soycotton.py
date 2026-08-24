@@ -23,7 +23,7 @@ Usage:
     pip install imagehash   # only needed by dedupe_splits.py, not this script
     python scripts/add_soycotton.py
     python scripts/verify.py          # confirm the new counts
-    python scripts/dedupe_splits.py   # re-run after merging, see that script's docstring
+    
 """
 import argparse
 import json
