@@ -3,9 +3,7 @@ Merge the SoyCotton leaf-detection dataset into data/processed.
 
 Why this exists: PlantDoc (relabel.py) has ZERO cotton images and only 33 soy
 images out of 2205 total (~1.5%). The detector has effectively never seen a
-cotton leaf and has barely seen a soy leaflet cluster, so precision/recall on
-those two crops is expected to be poor no matter how it's trained.
-
+cotton leaf 
 
 """
 import argparse
