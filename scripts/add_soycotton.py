@@ -15,8 +15,7 @@ lighting conditions. We only use the bounding boxes here. Both of its classes
 does for PlantDoc's 29 classes -- this project only ever localises "a leaf",
 not the species.
 
-The dataset is released alongside a peer-reviewed data descriptor; if you
-redistribute anything derived from it.
+
 """
 import argparse
 import json
