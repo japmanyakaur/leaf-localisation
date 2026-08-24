@@ -12,8 +12,7 @@ dataset: 640 real field images, 7,221 soy + 5,190 cotton leaves annotated with
 bounding boxes + segmentation masks, across growth stages / weed pressure /
 lighting conditions. We only use the bounding boxes here. Both of its classes
 ('soy' and 'cotton') get collapsed to class id 0 ('leaf'), same as relabel.py
-does for PlantDoc's 29 classes -- this project only ever localises "a leaf",
-not the species.
+does for PlantDoc's 29 classes 
 """
 import argparse
 import json
