@@ -59,7 +59,7 @@ leaf-localisation/
 
 ## Dataset
 
-The training set is built from two public sources, merged and relabeled to a **single class (`0 = leaf`)**:
+The training set is built from 2 public sources, merged and relabeled to a **single class (`0 = leaf`)**:
 
 | Source | Role | Notes |
 |---|---|---|
